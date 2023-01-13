@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Lato:wght@300&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: #d9cdf7;
+}
+
+.sofa{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px;
+    
+}
+
+.vector{
+    cursor: pointer;
+    width: 30px;
+    height: 22.47px;
+}
+
+.x{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.imgsofa{
+    width: 449px;
+    height: 253px;
+}
+
+#video{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+.conteudo{
+    padding: 40px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #271A45;
+}
+
+p{
+    font-family: 'lato';
+    font-size: 1em;
+    margin:12px 0px 12px 0px;
+}
+
+h1{
+    font-family: 'Crimson Pro';
+    font-size: 3em;
+}
+
+a{
+    margin-top: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'lato';
+    font-size: 0.8em;
+    color: #271A45;
+    border: 1px solid #271A45;
+    border-radius: 50px;
+    width: 148px;
+    height: 32px;
+}
+
+button{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+}
